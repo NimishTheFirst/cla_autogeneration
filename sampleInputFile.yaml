@@ -1,0 +1,14 @@
+# This is a YAML file example
+UserInfo:
+  email_id: 'nimish.chaudhari@rubrik.com'
+  jira_api_token: 'ATATT3xFfGF0ufAYrtL-9s6ftI1M6Xy5xU8PFIeUbt3jkR4Bvp9nlml56HmJdXoHh9VDwtVv7aNivEIsLlOXsnfaTr22eUHcbwCbpVQg0NeMkS3QcahrZPmaXSlNrd0Fmbk8yOOi_Nn_tTmTbIx7mr1PoapjHG7D3InA6LSsIWRCp91p9A4T6NI=AF243DFD'
+
+QueryInfo:
+  jira_query: "project = cdm and issuetype in ('Customer Bug') and component = 'Infinity - SQL Server' and resolved >= 2024-06-01 and resolved < 2024-07-01 and labels not in (sqlserver-backlog-scrubbing-fy25q1, cpd_bug_scrubbing, duplicate_ticket, resolvedBySupport) and 'Root Cause Labels' is not EMPTY"
+  jira_query_url: "https://rubrik.atlassian.net/issues/?jql=project%20%3D%20cdm%20and%20issuetype%20in%20(%22Customer%20Bug%22)%20and%20component%20%3D%20%22Infinity%20-%20SQL%20Server%22%20and%20resolved%20%3E%3D%202024-06-01%20and%20resolved%20%3C%202024-07-01%20and%20labels%20not%20in%20(sqlserver-backlog-scrubbing-fy25q1%2C%20cpd_bug_scrubbing%2C%20duplicate_ticket)%20and%20%22Root%20Cause%20Labels%22%20%3D%20"
+
+ConfluenceInfo:
+  page_id: "3446210934"
+
+ComponentInfo:
+  name: "mssql"
