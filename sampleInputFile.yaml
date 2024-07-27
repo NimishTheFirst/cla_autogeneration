@@ -1,7 +1,7 @@
 # This is a YAML file example
 UserInfo:
   email_id: 'nimish.chaudhari@rubrik.com'
-  jira_api_token: 'ATATT3xFfGF0ufAYrtL-9s6ftI1M6Xy5xU8PFIeUbt3jkR4Bvp9nlml56HmJdXoHh9VDwtVv7aNivEIsLlOXsnfaTr22eUHcbwCbpVQg0NeMkS3QcahrZPmaXSlNrd0Fmbk8yOOi_Nn_tTmTbIx7mr1PoapjHG7D3InA6LSsIWRCp91p9A4T6NI=AF243DFD'
+  jira_api_token: 'ATATT3xxFfGF0ufAYrtL-9s6ftI1M6Xy5xU8PFIeUbt3jkR4Bvpp9nlml56HmJdXoHh9VDwtVv7aNivEIsLlOXsnfaTr22eUHcbwCbpVQg0NeMkS3QcahrZPmaXSlNrd0Fmbk8yOOi_Nn_tTmTbIx7mr1PoapjHG7D3InA6LSsIWRCp91p9A4T6NI=AF243DFD'
 
 QueryInfo:
   jira_query: "project = cdm and issuetype in ('Customer Bug') and component = 'Infinity - SQL Server' and resolved >= 2024-06-01 and resolved < 2024-07-01 and labels not in (sqlserver-backlog-scrubbing-fy25q1, cpd_bug_scrubbing, duplicate_ticket, resolvedBySupport) and 'Root Cause Labels' is not EMPTY"
